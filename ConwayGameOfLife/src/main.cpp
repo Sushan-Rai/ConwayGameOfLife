@@ -197,15 +197,15 @@ void setup() {
             squares[i].state = 0; // off
             squares[i].nextState = 0; // off
 
-            // int cenR = MAP_ROWS / 2;
-            // int cenC = MAP_COLS / 2;
-            // if (r > cenR - 30 && r < cenR + 30)
-            //     if (c > cenC - 30 && c < cenC + 30)
-            //         squares[i].state = 1;
-            // if (r % 4 == 0 || c % 4 == 0)
-            // if (r - MAP_ROWS / 2 < 10)
-            //     if (c - MAP_COLS / 2 < 10)
-            //         squares[i].state = 1;
+             int cenR = MAP_ROWS / 2;
+             int cenC = MAP_COLS / 2;
+             if (r > cenR - 30 && r < cenR + 30)
+                 if (c > cenC - 30 && c < cenC + 30)
+                     squares[i].state = 1;
+             if (r % 4 == 0 || c % 4 == 0)
+             if (r - MAP_ROWS / 2 < 10)
+                 if (c - MAP_COLS / 2 < 10)
+                     squares[i].state = 1;
 
         }
     }
