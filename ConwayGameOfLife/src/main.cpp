@@ -46,11 +46,11 @@ void drawSplash() {
     glColor3f(1, 1, 1); // White text
     glRasterPos2f(-0.2f, 0.4f); // Adjust as needed
     const char* lines[] = {
-        "Mini Project",
-        "Game of Life",
+        "Computer Graphics (CS3102)         |         Mini Project",
+        "Title:             Game of Life",
         "",
-        "           - by",
-        "Sushan Rai             1RVU22CSE173",
+        "by",
+        "Sushan Rai                     1RVU22CSE173",
         "Akarsh Kumar Gowda     1RVU22CSE016",
         "",
         "Press ENTER to start..."
